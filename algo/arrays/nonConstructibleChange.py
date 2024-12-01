@@ -6,7 +6,8 @@ def nonConstructibleChange(coins):
     minimum = 0
     sortedCoins = sorted(coins)
     for coin in sortedCoins:
-        if coin > minimum + 1:
+        # 如果大于1，说明出现不连续了
+        if coin - minimum >  1:
             break
         minimum += coin
 
