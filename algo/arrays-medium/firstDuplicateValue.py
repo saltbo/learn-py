@@ -17,12 +17,13 @@ def firstDuplicateValue2(array):
             return num
     return -1
 
-def firstDuplicateValue3(array): 
-    for value in array: 
-        absValue = abs(value) 
-        if array[absValue - 1] < 0: 
-            return absValue 
-        array[absValue - 1] = -array[absValue - 1] 
+
+def firstDuplicateValue3(array):
+    for num in array:
+        absNum = abs(num)
+        if array[absNum-1] < 0:
+            return absNum
+        array[absNum-1] = -array[absNum-1]
     return -1
 
 
