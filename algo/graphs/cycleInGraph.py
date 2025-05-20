@@ -3,28 +3,29 @@ def cycleInGraph(edges):
     # 三种状态：未访问(0)，正在访问(1)，已完成访问(2)
     status = [0] * n
 
-    # 对每个未访问的节点进行DFS
+    # 对每个节点尝试进行DFS，dfs内部会判断是否需要继续搜索
     for node in range(n):
-        if status[node] == 0:
-            if dfs(node, edges, status):
-                return True
+        if dfs(node, edges, status):
+            return True
 
     return False
 
 
 def dfs(node, edges, status):
-    print(node, status)
+    # 如果节点已经完成访问，不需要再处理
+    if status[node] == 2:
+        return False
+
+    # 如果节点正在访问中，说明找到了环
+    if status[node] == 1:
+        return True
+
     # 标记为正在访问
     status[node] = 1
 
     # 检查所有邻居
     for neighbor in edges[node]:
-        # 如果邻居未访问，继续DFS
-        if status[neighbor] == 0:
-            if dfs(neighbor, edges, status):
-                return True
-        # 如果邻居正在被访问，说明找到了环
-        elif status[neighbor] == 1:
+        if dfs(neighbor, edges, status):
             return True
 
     # 标记为已完成访问
