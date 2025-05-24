@@ -1,4 +1,11 @@
 def bubbleSort(array):
+    """
+    Bubble Sort Algorithm
+    Time Complexity: O(n^2)
+    Space Complexity: O(1)
+    """
+    # It iterates through the array, comparing adjacent elements and swapping them if they are in the wrong order.
+
     index = 0
     currentLen = len(array)
     while (currentLen > 0):

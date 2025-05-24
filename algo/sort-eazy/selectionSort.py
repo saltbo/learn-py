@@ -9,6 +9,12 @@ def selectionSort(array):
 
 
 def selectionSort2(array):
+    """Sorts an array in place using the selection sort algorithm.
+    Time Complexity: O(n^2)
+    Space Complexity: O(1)
+    """
+    # It iterates through the array, finding the minimum element in the unsorted portion and swapping it with the first unsorted element.
+
     currentIdx = 0
     while currentIdx < len(array) - 1:
         minimumIdx = currentIdx
