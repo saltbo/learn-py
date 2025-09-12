@@ -1,10 +1,5 @@
 from typing import Optional
-
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from helper2 import ListNode, create_linked_list, print_linked_list
 
 
 def addTwoNumbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
@@ -31,29 +26,7 @@ def addTwoNumbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[Li
     return head.next
 
 
-def create_linked_list(arr):
-    """辅助函数：将数组转换为链表"""
-    if not arr:
-        return None
-    head = ListNode(arr[0])
-    current = head
-    for val in arr[1:]:
-        current.next = ListNode(val)
-        current = current.next
-    return head
-
-
-def print_linked_list(head):
-    """辅助函数：打印链表"""
-    result = []
-    current = head
-    while current:
-        result.append(str(current.val))
-        current = current.next
-    return " -> ".join(result)
-
-
 l1 = create_linked_list([2, 4, 3])
 l2 = create_linked_list([5, 6, 4])
 result = addTwoNumbers(l1, l2)
-print(print_linked_list(result))  # 输出: 7 -> 0 -> 8
+print_linked_list(result)  # 输出: 7 -> 0 -> 8
