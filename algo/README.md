@@ -136,8 +136,8 @@ This dictionary help me to organize my algorithm problems. Read this document he
 ### DFS Traversal (深度优先遍历)
 
 - **Branch Sums** (Easy) - [`branchSums`](binary-tree/branchSums.py)
+- **Symmetric Tree** (Easy) - [`symmetricTree`](binary-tree/symmetricalTree.py)
 - **Lowest Common Ancestor** (Medium) - [`lowestCommonAncestor`](binary-tree/lowestCommonAncestor.py)
-- **Symmetric Tree** (Medium) - [`symmetricTree`](binary-tree/symmetricalTree.py)
 
 ### Tree Properties (树的性质)
 
