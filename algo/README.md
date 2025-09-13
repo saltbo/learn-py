@@ -114,12 +114,12 @@ This dictionary help me to organize my algorithm problems. Read this document he
 
 ### Reverse (反转)
 
-- **Reverse Linked List** - [`reverse_linked_list`](linked-list/helper2.py)
+- **Reverse Linked List** - [`reverse_linked_list`](linked-list/basic-op.py)
 - **Inverted Bisection** (Medium) - [`invertedBisection`](algo-assessments/invertedBisection.py)
 
 ### Arithmetic Operations (算术运算)
 
-- **Sum of Linked Lists** (Medium) - [`sumOfLinkedLists`](linked-list/test_sumOfLinkedLists.py)
+- **Sum of Linked Lists** (Medium) - [`sumOfLinkedLists`](linked-list/sumOfLinkedLists.py)
 
 ### Node Manipulation (节点操作)
 
@@ -143,8 +143,8 @@ This dictionary help me to organize my algorithm problems. Read this document he
 
 ### Tree Manipulation (树的操作)
 
-- **Split Binary Tree** (Medium) - [`splitBinaryTree`](binary-tree/test_splitBinaryTree.py)
-- **Merge Binary Trees** (Easy) - [`mergeBinaryTrees`](binary-tree/test_mergeBinaryTrees.py)
+- **Split Binary Tree** (Medium) - [`splitBinaryTree`](binary-tree/splitBinaryTree.py)
+- **Merge Binary Trees** (Easy) - [`mergeBinaryTrees`](binary-tree/mergeBinaryTrees.py)
 
 ## Binary Search Tree
 
