@@ -137,6 +137,7 @@ This dictionary help me to organize my algorithm problems. Read this document he
 
 - **Branch Sums** (Easy) - [`branchSums`](binary-tree/branchSums.py)
 - **Lowest Common Ancestor** (Medium) - [`lowestCommonAncestor`](binary-tree/lowestCommonAncestor.py)
+- **Symmetric Tree** (Medium) - [`symmetricTree`](binary-tree/symmetricalTree.py)
 
 ### Tree Properties (树的性质)
 
