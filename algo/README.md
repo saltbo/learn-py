@@ -128,19 +128,18 @@ This dictionary help me to organize my algorithm problems. Read this document he
 
 ## Binary Tree
 
-## BFS Traversal (广度优先遍历)
+### BFS Traversal (广度优先遍历)
 
 - **Level Order Traversal** (Medium) - [`levelOrder`](binary-tree/levelOrder.py)
 
 ### DFS Traversal (深度优先遍历)
 
 - **Branch Sums** (Easy) - [`branchSums`](binary-tree/branchSums.py)
-- **In-order, Pre-order, Post-order** (Easy) - [`traversal`](binary-search-tree/test_traversal.py)
+- **Lowest Common Ancestor** (Medium) - [`lowestCommonAncestor`](binary-tree/lowestCommonAncestor.py)
 
 ### Tree Properties (树的性质)
 
 - **Height Balanced** (Medium) - [`heightBalancedBinaryTree`](binary-tree/heightBalancedBinaryTree.py)
-- **Validate BST** (Medium) - [`validateBst`](binary-search-tree/test_validateBst.py)
 
 ### Tree Manipulation (树的操作)
 
@@ -151,11 +150,11 @@ This dictionary help me to organize my algorithm problems. Read this document he
 
 ### BST Validation (BST 验证)
 
-- **Validate BST** (Medium) - [`validateBst`](binary-search-tree/test_validateBst.py)
+- **Validate BST** (Medium) - [`validateBst`](binary-search-tree/validateBst.py)
 
-### BST Traversal (BST 遍历)
+### BST Traversal using DFS (BST 遍历)
 
-- **In-order, Pre-order, Post-order** (Easy) - [`traversal`](binary-search-tree/test_traversal.py)
+- **In-order, Pre-order, Post-order** (Easy) - [`traversal`](binary-search-tree/traversal.py)
 
 ## Searching
 
