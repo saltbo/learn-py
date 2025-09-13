@@ -131,6 +131,7 @@ This dictionary help me to organize my algorithm problems. Read this document he
 ### BFS Traversal (广度优先遍历)
 
 - **Level Order Traversal** (Medium) - [`levelOrder`](binary-tree/levelOrder.py)
+- **Zigzag Level Order Traversal** (Medium) - [`zigzagLevelOrder`](binary-tree/zigzagLevelOrder.py)
 
 ### DFS Traversal (深度优先遍历)
 
