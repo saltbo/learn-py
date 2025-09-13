@@ -58,3 +58,19 @@ while curr:
     curr = curr.next
 
 print(has_cycle(node3))
+
+print("--------------")
+node4 = create_linked_list([1, 2, 3, 4, 5])
+print_linked_list(node4)
+target = 3
+
+# remove the specify node
+dummy = ListNode(0)
+dummy.next = node4
+curr = dummy
+while curr.next:
+    if curr.next.val == target:
+        curr.next = curr.next.next
+    curr = curr.next
+
+print_linked_list(dummy.next)
